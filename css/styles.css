@@ -1,0 +1,330 @@
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    /* background: #ffffff; */
+}
+
+.header {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo_img {
+    margin: 0 12px;
+    width: 32px;
+    height: 32px;
+}
+
+
+/* 導覽列中的項目 */
+
+.nav-btn {
+    display: block;
+    padding: 0 12px;
+    color: #bdbdbd;
+    font-size: 24px;
+}
+
+
+/* 導覽列中的項目樣式 */
+
+.nav-btn.active {
+    color: #585858;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+    color: #a0a0a0;
+}
+
+.nav-btn:active {
+    color: #8c8c8c;
+}
+
+
+/* 文章&留言區塊 */
+
+article.post {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: 24px;
+}
+
+
+/* 文章圖片 */
+
+img.post_img {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* @media (min-width: 576px) {
+    img.post_img {
+        border-radius: 3px 3px 0 0;
+    }
+    article.post {
+        border-radius: 3px;
+    }
+} */
+
+
+/* 愛心 */
+
+.fa-heart:before,
+.fa-heart-o:before,
+.fa-ellipsis-v:before {
+    font-size: 24px;
+}
+
+.fa-heart-o:before,
+.fa-ellipsis-v:before {
+    color: #cdcdcd;
+}
+
+.btn_like {
+    margin-right: 6px;
+}
+
+.btn_like:hover,
+.btn_edit:hover {
+    cursor: pointer;
+}
+
+.post_like .btn_like:active .fa-heart-o:before,
+.post_like .btn_edit:active .fa-ellipsis-v:before {
+    color: #bebebe;
+}
+
+.fa-heart:before {
+    color: #ff5722;
+    /* content: "\f004"; */
+}
+
+
+/* 留言樣式 */
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.u_name {
+    color: #333333;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.post_content,
+.comment_content {
+    color: #333333;
+}
+
+.post_like {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post_comments,
+.post_like {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.post_like>.like_count {
+    font-weight: bold;
+}
+
+.post_like>.post_edit {
+    font-weight: bold;
+    float: right;
+}
+
+.post_comment_form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post_comment_text {
+    border: none;
+    width: 100%;
+}
+
+.post_comment_text:focus {
+    outline: none;
+}
+
+
+/* 修改個人資料按鈕 */
+
+.post_comment_btn,
+.default_btn {
+    background-color: rgb(230, 159, 29);
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 0 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    border-color: rgb(230, 159, 29);
+}
+
+.post_comment_btn:hover,
+.default_btn:hover,
+.post_comment_btn:focus,
+.default_btn:focus {
+    color: #fff;
+    background-color: rgb(240, 16, 0);
+    background-color: rgb(240, 16, 0);
+    cursor: pointer;
+}
+
+.post_comment_btn:active,
+.default_btn:active {
+    color: #fff;
+    background-color: #4d94ba;
+    border-color: #4d94ba;
+}
+
+.cancel_btn {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #373a3c;
+    text-transform: uppercase;
+}
+
+.cancel_btn:hover,
+.cancel_btn:focus {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    cursor: pointer;
+}
+
+.cancel_btn:active {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.delete_btn {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+}
+
+.delete_btn:hover,
+.delete_btn:focus {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+    cursor: pointer;
+}
+
+.delete_btn:active {
+    background-color: #ac2925;
+    border-color: #8b211e;
+}
+
+.upload_btn,
+.post_btn,
+.cancel_btn,
+.delete_btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    outline: none;
+    /* text-transform: uppercase; */
+}
+
+.btn.default_btn.post_btn,
+.btn.default_btn.cancel_btn {
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.btn.default_btn.cancel_btn:hover {
+    color: #fff;
+}
+
+
+/* 編輯內文 */
+
+.upload_title,
+.update_title {
+    margin-top: 18px;
+}
+
+.upload_description {
+    margin-top: 24px;
+}
+
+
+/* 選擇檔案按鈕 */
+
+input[type='file'] {
+    margin: 24px 0;
+}
+
+.comment_date,
+.post_date,
+.post_last {
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+.fa-clock-o {
+    font-size: 12px;
+    color: #bdbdbd;
+    margin: 0 3px;
+}
+
+li.post_comment,
+li.post_author {
+    margin: 5px 0;
+}
+
+.post_author {
+    margin-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+}
+
+
+/* 表單placeholder字體 */
+
+.update-user input[type="password"]::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari
+
+color: #ddd;
+
+}
+.update-user input[type="password"]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ddd;
+}
+
+.update-user input[type="password"]:-ms-input-placeholder {
+    /* IE 10+  */
+    color: #ddd;
+}
+
+.update-user input[type="password"]:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ddd;
+}

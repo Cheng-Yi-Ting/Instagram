@@ -1,0 +1,221 @@
+body {
+    padding-top: 90px;
+    /* border: 2px solid red; */
+}
+
+
+/* 測試用 */
+
+
+/* .container {
+    border: 2px solid red;
+    padding: 0px;
+} */
+
+
+/* .card {
+    border: 10px solid red;
+} */
+
+
+/* .card-block {
+    border: 1px solid red;
+} */
+
+.cad {
+    color: black;
+}
+
+
+/* 登入卡片邊框 */
+
+.card-login {
+    border-color: #ccc;
+    /* box-shadow: x y blur spread color inset; */
+    /* 前面 4 個都是尺寸值 (length，不接受 %) ，依序表示水平位移距離 (x) 、垂直位移距離 (y) 、模糊強度 (blur) 、擴散強度 (spread) ，不可被其它的值插進其間。 */
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* card header設定 */
+
+.card-login>.card-header {
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+}
+
+.card-login>.card-header span {
+    /* text-decoration: none; */
+    color: #9E9E9E;
+    font-weight: bold;
+    font-size: 15px;
+    /* -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear; */
+    cursor: pointer;
+}
+
+
+/* login&register 被點擊更改樣式 */
+
+.card-login>.card-header span.active {
+    color: #424242;
+    font-size: 18px;
+}
+
+.card-login input[type="text"],
+.card-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    /* -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear; */
+}
+
+.card-login input:hover,
+.card-login input:focus {
+    /* outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; */
+    border-color: #ccc;
+}
+
+
+/* .btn-login,
+.btn-register {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+} */
+
+
+/* .btn-login:hover,
+.btn-register:hover,
+.btn-login:focus,
+.btn-register:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+} */
+
+
+/* .btn-login:active, */
+
+
+/* .btn-register:active { */
+
+
+/* color: #fff; */
+
+
+/* background-color: #4d94ba; */
+
+
+/* border-color: #4d94ba; */
+
+
+/* } */
+
+
+/* .forgot-password { */
+
+
+/* text-decoration: underline; */
+
+
+/* color: #888; */
+
+
+/* } */
+
+
+/* .forgot-password:hover, */
+
+
+/* .forgot-password:focus { */
+
+
+/* text-decoration: underline; */
+
+
+/* color: #666; */
+
+
+/* } */
+
+
+/* .card-login input[type="text"]::-webkit-input-placeholder, */
+
+
+/* .card-login input[type="password"]::-webkit-input-placeholder { */
+
+
+/* Chrome/Opera/Safari */
+
+
+/* color: #ddd; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .card-login input[type="text"]::-moz-placeholder, */
+
+
+/* .card-login input[type="password"]::-moz-placeholder { */
+
+
+/* Firefox 19+ */
+
+
+/* color: #ddd; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .card-login input[type="text"]:-ms-input-placeholder, */
+
+
+/* .card-login input[type="password"]:-ms-input-placeholder { */
+
+
+/* IE 10+ */
+
+
+/* color: #ddd; */
+
+
+/* } */
+
+
+/* .card-login input[type="text"]:-moz-placeholder, */
+
+
+/* .card-login input[type="password"]:-moz-placeholder { */
+
+
+/* Firefox 18- */
+
+
+/* color: #ddd; */
+
+
+/* } */
